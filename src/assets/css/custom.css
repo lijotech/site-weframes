@@ -1,0 +1,42 @@
+#Sliding-top a.sliding-top-control {
+    display: none !important;
+}
+
+.icon-menu {
+    color: #f96706 !important ;
+}
+#Top_bar.is-sticky {
+    background-color : #36A1D3!important ;
+}
+
+.flv_sections_54 {
+    /*background-color: #f99138;*/
+    background: rgba(0, 0, 0, 0.02);
+    /*color: #fff;*/
+}
+/*.flv_sections_54 h3{color:#fff;}*/
+
+.flv_sections_59 {
+    background-color: #333 !important;
+}
+.flv_sections_53 .fancy_heading h2 {
+    color:#000;
+}
+.flv_sections_57 h3{
+    color:#f96706 !important ;
+}
+.flv_sections_57 p {
+    color: #000 !important;
+}
+#popup_contact {display :none;}
+
+.weshop #Header_wrapper { background-color :#cdcdcd !important ;
+}
+.weshop #Top_bar.is-sticky {
+    background-color: #fff !important;
+}
+
+.portfolio_group .image_frame {border-color :#36A1D3 !important ;}
+.weproduct #Top_bar.is-sticky {
+    background-color: #fff !important;
+}

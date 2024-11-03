@@ -1,17 +1,417 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 "> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>WeFrames</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="p:domain_verify" content="fa47f661f1816b71feb6ab5ce3ddfdc4" />
+    <link rel="shortcut icon" href="http://www.weframes.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-touch-icon-152x152.png" />
+    <meta property="og:site_name" content="WeFrames" />
+    <meta property="fb:admins" content="100000911131508" />
+    <meta property="og:type" content="blog" />
+    <meta name="google-site-verification" content="sOMhnV1ToRwprgjZ5xCB7SFo_MGYtINA0LiYuisbbwc" />
+    <link rel="alternate" href="http://weframes.com" hreflang="en-us" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Language" content="en" />
+
+    <!-- FONTS -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <!-- CSS -->
+    <link rel='stylesheet' href='assets/css/global.css'>
+    <link rel='stylesheet' href='assets/css/structure.css'>
+    <link rel='stylesheet' id='style-static' href='assets/css/be_style.css'>
+    <link rel='stylesheet' href='assets/css/custom.css'>
+   
 </head>
 
-<body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+<body class="color-gold layout-full-width header-empty header-simple subheader-transparent sticky-header sticky-white subheader-title-left">
+   
+    <!-- Main Theme Wrapper -->
+    <div id="wehome">
+        <!-- Header Wrapper -->
+        <div id="Header_wrapper">
+            <!-- Header -->
+            <header id="Header">
+                <!-- Header Top -  Info Area -->
+                <div id="Action_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <!-- Header - contact info area-->
+                            <ul class="contact_details">
+                                <li class="slogan">
+                                    Have any questions?
+                                </li>
+                               
+                                <li class="mail">
+                                    <i class="icon-mail-line"></i><a href="mailto:info@weframes.com">info@weframes.com</a>
+                                </li>
+                            </ul>
+                            <!--Social info area-->
+                            <ul class="social">
+                                
+                                <li class="facebook">
+                                    <a href="https://www.facebook.com/weframes" title="Facebook"><i class="icon-facebook"></i></a>
+                                </li>
+                             
+                                <li class="twitter">
+                                    <a href="https://www.twitter.com/weframes" title="Twitter"><i class="icon-twitter"></i></a>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Header -  Logo and Menu area -->
+                <div id="Top_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <div class="top_bar_left clearfix">
+                                <!-- Logo-->
+                                <div class="logo">
+                                    <a id="logo" href="http://www.weframes.com" title="WeFrames-Crafted with Passion"><img class="scale-with-grid" src="assets/images/logowe.png" alt="Weframes" />
+                                    </a>
+                                </div>
+                                <!-- Main menu-->
+                                <div class="menu_wrapper">
+                                    <nav id="menu">
+                                        <ul id="menu-main-menu" class="menu">
+                                            <li>
+                                                <a href="#wehome" data-hash="#wehome"><span>Welcome</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#weabout"><span>Who we are</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#westuff" data-hash="#westuff"><span>Our Crafts</span></a>
+                                            </li>                                           
+                                            <li>
+                                                <a href="#wecontact"><span>Get Connected</span></a>
+                                            </li>
+                                        </ul>
+                                    </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
+                                </div>
+                                
+                          
+                               
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+        </div>
+        <!-- Main Content -->
+        <div id="Content">
+            <div class="content_wrapper clearfix">
+                <div class="sections_group">
+                    <div class="entry-content">
+                        <div class="section full-width center dark flv_sections_53" data-stellar-background-ratio="0.5">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <div  class="column one column_fancy_heading" >
+                                        <div  class="fancy_heading fancy_heading_arrows">
+                                            <h2  class="title animate" data-anim-type="fadeInDown">You Dream, We Craft.</h2>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section center flv_sections_54" id="weabout">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One full width row-->
+                                    <div class="column one column_column">
+                                        <div class="column_attr animate" data-anim-type="bounceInUp">
+                                            <h3>About Us</h3>
+                                            
+                                            <span class="big">
+                                                We Frames,a group of innovative minds passionate in revamping the Techie world into a globe of traditional bliss.We do focus on recycling used products into another beneficiary ones.
+                                                We are dedicated in giving you the very best with a focus on customer service and uniqueness. We hope you enjoy our Products and Services as much as we enjoy offering them to you. In case of any queries feel free to contact us.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="section dark center flv_sections_56" id="westuff" data-id="#westuff">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One full width row-->
+                                    <div class="column one column_column">
+                                        <div class="column_attr animate" data-anim-type="zoomIn">
+                                            <h2>WE CREATE COOL STUFF</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section full-width flv_sections_16">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One full width row-->
+                                    <div class="column one column_portfolio_grid">
+                                        <ul class="portfolio_grid ">
+                                            <li>
+                                                <div class="image_frame scale-with-grid">
+                                                    <div class="image_wrapper">
+                                                        <a href="assets/images/we/1200x800/g1_large.jpg" rel="prettyphoto">
+                                                            <div class="mask"></div><img width="576" height="450" src="assets/images/we/576x450/g1.jpg" class="scale-with-grid wp-post-image" alt="portfolio_1" />
+                                                        </a>
+                                                        <div class="image_links one ">
+                                                            <a href="assets/images/we/1200x800/g1_large.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a>
 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="image_frame scale-with-grid">
+                                                    <div class="image_wrapper">
+                                                        <a href="assets/images/we/1200x800/g2_large.jpg" rel="prettyphoto">
+                                                            <div class="mask"></div><img width="576" height="450" src="assets/images/we/576x450/g2.jpg" class="scale-with-grid wp-post-image" alt="portfolio_1" />
+                                                        </a>
+                                                        <div class="image_links one ">
+                                                            <a href="assets/images/we/1200x800/g2_large.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="image_frame scale-with-grid">
+                                                    <div class="image_wrapper">
+                                                        <a href="assets/images/we/1200x800/g3_large.jpg" rel="prettyphoto">
+                                                            <div class="mask"></div><img width="576" height="450" src="assets/images/we/576x450/g3.jpg" class="scale-with-grid wp-post-image" alt="portfolio_1" />
+                                                        </a>
+                                                        <div class="image_links one ">
+                                                            <a href="assets/images/we/1200x800/g3_large.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="image_frame scale-with-grid">
+                                                    <div class="image_wrapper">
+                                                        <a href="assets/images/we/1200x800/g4_large.jpg" rel="prettyphoto">
+                                                            <div class="mask"></div><img width="576" height="450" src="assets/images/we/576x450/g4.jpg" class="scale-with-grid wp-post-image" alt="portfolio_1" />
+                                                        </a>
+                                                        <div class="image_links one ">
+                                                            <a href="assets/images/we/1200x800/g4_large.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section dark flv_sections_57" id="liveo" data-stellar-background-ratio="0.5">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_image">
+                                        <!-- Animated area -->
+                                        <div class="animate" data-anim-type="zoomIn">
+                                            <div class="image_frame no_link scale-with-grid no_border alignright">
+                                                <div class="image_wrapper"><img class="scale-with-grid" src="assets/images/we/p4.jpg" alt="liveo" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_column">
+                                        <div class="column_attr animate" data-anim-type="fadeInRight">
+                                            <div class="flv_style_56">
+                                                <h3>Feel the green Power</h3>
+                                                <p class="big ">
+                                                    Our customers extolling reviews was always the strength to move on.
+                                                </p>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="section dark center flv_sections_59" id="wecontact">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One full width row-->
+                                    <div class="column one column_column">
+                                        <div class="column_attr animate" data-anim-type="zoomIn">
+                                            <h2>"When we cut new roads in forest,
+                                            <br />It will speak the stories about people who follow it."</h2>
+                                            <p class="flv_style_58">Reach us @info@weframes.com</p>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer id="Footer" class="clearfix">
+            <!-- Footer - First area -->
+            <div class="footer_action">
+                <div class="container">
+                    <!-- One full width row-->
+                    <div class="column one column_column">
+                        <a href="#" class="flv_footer_grey" target="_blank"><span class="flv_font_18"> <span class="themecolor">We promote your Business, </span><span class="flv_color_white">At the same time we work for a Green Community</span></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="widgets_wrapper">
+                <div class="container">
+                    <div class="one-third  column">
+                        <!-- Text Area -->
+                        <aside id="text-7" class="widget widget_text">
+                            <div class="textwidget">
+                                <img src="assets/images/logowe.png" alt="">
+                                <p>
+                                    <span class="big">WeFrames is a Team of Creative Minds</span>
+                                </p>
+                                <p>
+                                    We make relationships with our clients,who joins our family towards creating a better world through Green Community.
+                                </p>
+                                
+                            </div>
+                        </aside>
+                    </div>
+
+
+                    <div class="one-third   column">
+                        <!-- Text Area -->
+                        <aside id="text-8" class="widget widget_text">
+                            <h4>Some features</h4>
+                            <div class="textwidget">
+                                <ul class="list_mixed">
+                                    <li class="list_check">
+                                        Crafted with Passion.
+                                    </li>
+                                    <li class="list_star">
+                                        Spread awerness about Green.
+                                    </li>
+                                    <li class="list_idea">
+                                        Work closely with our Clients.
+                                    </li>
+                                    <li class="list_check">
+                                        Love our beautiful Nature.
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="one-third column">
+                        <!-- Text Area -->
+                        <aside class="widget widget_text">
+                            <h4>Have any questions?</h4>
+                            <div class="textwidget">
+                                <p class="big">
+                                    Do you have any brain stroming ideas? Feel free to share with us.<br /> Reach us at info@weframes.com
+                                </p>
+                                <a href="https://www.facebook.com/weframes" class="icon_bar icon_bar_facebook icon_bar_small"><span class="t"><i class="icon-facebook"></i></span><span class="b"><i class="icon-facebook"></i></span></a>
+                                <a href="https://www.twitter.com/weframes" class="icon_bar icon_bar_twitter icon_bar_small"><span class="t"><i class="icon-twitter"></i></span><span class="b"><i class="icon-twitter"></i></span></a>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer copyright-->
+            <div class="footer_copy">
+                <div class="container">
+                    <div class="column one">
+                        <a id="back_to_top" href="#" class="button button_left button_js"><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
+                        <div class="copyright"> &copy; <span id="weyear"></span> WeFrames </div>
+                        <!--Social info area-->
+                        <ul class="social">
+                           
+                            <li class="facebook">
+                                <a href="https://www.facebook.com/weframes" title="Facebook"><i class="icon-facebook"></i></a>
+                            </li>
+                            
+                            <li class="twitter">
+                                <a href="https://www.twitter.com/weframes" title="Twitter"><i class="icon-twitter"></i></a>
+                            </li>
+                           
+                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Popup contact form -->
+    <div id="popup_contact">
+        <a class="button button_js" href="#"><i class="icon-mail-line"></i></a>
+        <div class="popup_contact_wrapper">
+
+            <div id="contactWrapper_popup">
+                <form id="contactform_popup">
+                    <h4>Send us a message</h4>
+                    <p>
+                        <span>
+								<input type="text" name="name_popup" id="name_popup" size="40" aria-required="true" aria-invalid="false" placeholder="Your name" />
+							</span><span>
+								<input type="email" name="email_popup" id="email_popup" size="40" aria-required="true" aria-invalid="false" placeholder="Your email" />
+							</span><span>
+								<input type="text" name="subject_popup" id="subject_popup" size="40" aria-required="true" aria-invalid="false" placeholder="Subject" />
+							</span><span> 								<textarea name="body_popup" cols="40" id="body_popup" rows="2" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span>
+                        <input type="button" value="Send Message" id="submit_popup" onClick="return check_values_popup();">
+                    </p>
+                </form>
+                <div id="confirmation_popup"></div>
+            </div>
+            <span class="arrow"></span>
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/mfn.menu.js"></script>
+    <script src="assets/js/jquery.plugins.js"></script>    
+    <script src="assets/js/animations.js"></script>    
+    <script src="assets/js/scripts.js"></script>
+    <script>
+        jQuery(window).load(function() {
+            var retina = window.devicePixelRatio > 1 ? true : false;
+            if (retina) {
+                var retinaEl = jQuery("#logo img");
+                var retinaLogoW = retinaEl.width();
+                var retinaLogoH = retinaEl.height();
+                retinaEl.attr("src", "assets/images/logo-retina.png").width(retinaLogoW).height(retinaLogoH)
+            }
+        });
+        $(document).ready(function() { var currentYear = new Date().getFullYear(); $('#weyear').text(currentYear); });
+    </script>
+</body>
 </html>
